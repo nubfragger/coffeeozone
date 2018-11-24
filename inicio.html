@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Inicio</title>
+	<meta content="text/html; charset=utf-8" http-equiv="content-type"/>
+	<meta name="author" content="Nicolas Viñals">
+	<meta name="description" content="Diseño Aplicacion Web : Diseño Web Entorno Cliente">
+	<link rel="shortcut icon" type="image/x-icon" href="imagenes/icono.ico" />
+	<link rel="stylesheet" type="text/css" href="./css/header.css" />
+	<link rel="stylesheet" type="text/css" href="./css/cindex.css" />
+	<link rel="stylesheet" type="text/css" href="./css/footer.css" />
+	<script type="text/javascript" src="./js/ham-menu.js"></script>
+	<script type="text/javascript">
+		function HolaSoyElFooter() {
+		var foot = "Version Navegador: " + navigator.appVersion + " Ancho y alto de pantalla:  " + screen.width +" x "+ screen.height +" píxeles";
+		document.getElementById("footp").innerHTML += foot;
+		}
+	</script>
+</head>
+<body>
+	<header>
+		<div id="header">
+			<p>Coffee Ozone</p>
+			<div id="mySidenav" class="sidenav">
+			  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+			  <a href="./inicio.html" active>Inicio</a>
+			  <a href="./pedidos.html">Pedidos</a>
+			  <a href="./usuarios.html">Usuarios</a>
+			</div>
+			<label style="font-size:30px;cursor:pointer; position: absolute;" onclick="openNav()">&#9776; Menu</label>
+		</div>
+	</header>
+	<div id="cuerpo">
+		<div id="historia">
+			<div id="texto">
+				<hr>
+				<p style="font-size: 35px; margin-bottom: 0px; margin-top: 0px; text-decoration: underline overline; text-align: center">
+					<b>Objetivos</b>
+				</p>
+				<p>
+				La misión de Coffee Ozone es que disfrutes de un tiempo especial en cualquier momento del día.Trabajamos, para ello, con alimentos de alta calidad, exquisitamente elaborados en nuestro propio obrador y presentados cuidando hasta el último detalle, siguiendo tus gustos y preferencias. Ofrecemos pequeños placeres y grandes sensaciones. Todo un lujo para la vista y el paladar.Llevamos desde 1992 ofreciéndote nuestras delicatessen. Todo recién hecho, como siempre.
+				</p>
+			</div>
+			<div id="imagen">
+				<img src="./imagenes/img1.png">
+			</div>
+			<div id="horario">
+				<hr>
+				<p style="font-size: 35px; margin-bottom: 0px; margin-top: 0px; text-decoration: underline overline">
+					<b>Horario</b>
+				</p>
+				<table align="center">
+					<tr>
+						<th colspan="3">Lunes a Viernes</th>
+					</tr>
+					<tr>
+						<td>9:00 am</td>
+						<td> - </td>
+						<td>21:00 pm</td>
+					</tr>
+					<tr>
+						<th colspan="3">Fines de semana y festivos</th>
+					</tr>
+					<tr>
+						<td>10:00 am</td>
+						<td> - </td>
+						<td>23:00 pm</td>
+					</tr>
+				</table>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div id="footer">
+			<p id="footp">
+				Creado por: <b>@Nubfragger</b> <input type="button" name="Infoadicional" value="Informacion adicional" onclick="HolaSoyElFooter()">
+			</p>
+		</div>
+	</footer>
+</body>
+</html>

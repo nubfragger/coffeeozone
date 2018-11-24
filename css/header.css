@@ -1,0 +1,13 @@
+#header p{
+	margin: 0;
+	padding: 10px;
+	background-image: url("../imagenes/header.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	border: 0.1px solid black;
+	text-align: center;
+	font-weight: bold;
+	font-size: 60px;
+	font-family: Verdana;
+	text-shadow: 0 0 0.2em white, 0 0 0.2em white, 0 0 0.2em white;
+}

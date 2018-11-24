@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta  content="text/html; charset=utf-8" http-equiv="content-type"/>
+   	<title>Prefijos internacionales</title>
+	<script>
+		function anyadirpref(pref){
+			window.opener.document.formu.txttelefono.value = pref;
+			window.close();
+		}
+	</script>
+</head>
+<body> 
+	<h2>Prefijos Internacionales</h2>
+	<p>Informacion de los prefijos de algunos paises</p>
+	<form name=prefijo>
+		<input type="Button" value="+34" onclick="anyadirpref('+34')">
+		España:
+		<br>
+		<input type="Button" value="+31" onclick="anyadirpref('+31')">
+		Holanda:
+		<br>
+		<input type="Button" value="+44" onclick="anyadirpref('+44')">
+		Gran Bretaña:
+		<br>
+		<input type="Button" value="+01" onclick="anyadirpref('+01')">
+		Estados Unidos:
+		<br>
+		<input type="Button" value="+32" onclick="anyadirpref('+32')">
+		Bélgica:
+		<br>
+		<input type="Button" value="+30" onclick="anyadirpref('+30')">
+		Grecia:
+	</form>
+</body> 
+</html>

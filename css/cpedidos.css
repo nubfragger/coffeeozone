@@ -1,0 +1,198 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: Arial;
+  background-color: #fffff0;
+  transition: background-color .5s;
+}
+.cuerpo {
+	margin: 10px;
+  height: 100%;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+* {box-sizing: border-box;}
+
+#wrapper {
+  border: 2px solid #f76707;
+  border-radius: 5px;
+  background-color: #fff4e6;
+  margin: 20px;
+}
+
+#wrapper > #pedidos {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  margin: 5px;
+}
+#wrapper > #resumenpedido {
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+  background-color: #ffd8a8;
+  padding: 1em;
+  margin: 5px;
+}
+#wrapper > #fpago{
+  padding: 2px;
+  margin-left: 4px;
+}
+#wrapper > #feped{
+  padding: 2px;
+  margin-bottom: 4px;
+}
+fieldset{
+  border: 2px solid #ffa94d;
+  border-radius: 5px;
+}
+input[type=text] {
+  width: 100%;
+  height: 35px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+input[type=number] {
+  width: 100%;
+  height: 35px;
+  padding: 2px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+}
+#forpago{
+  height: 25px;
+  border-radius: 10px;
+}
+#selemenu{
+  height: 25px;
+  border-radius: 10px;
+}
+#fpedido{
+  height: 25px;
+  border-radius: 10px;
+}
+.btn  {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn2  {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 200px;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+#menus{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  margin: 10px 0;
+  border: none;
+  width: 100%;
+  border-radius: 3px;
+  cursor: pointer;
+  font-size: 17px;
+}
+.btn:hover {
+  background-color: #45a049;
+}
+.btn2:hover {
+  background-color: #45a049;
+}
+#
+#menus:hover{
+  background-color: #45a049;
+}
+#m1 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightblue;
+    margin-top: 20px;
+    display: none;
+}
+#m2 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: salmon;
+    margin-top: 20px;
+    display: none;
+}
+#m3 {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: lightgreen;
+    margin-top: 20px;
+    display: none;
+}
+#genpedido{
+  text-align: left;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+table{
+  margin-left: 20%;
+  margin-right: 20%;
+}
+/*menu*/
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
